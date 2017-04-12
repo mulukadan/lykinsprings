@@ -1,0 +1,29 @@
+.page-header{
+  height: 100px;
+  background-color: orange;
+  color: green;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 0px;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.sidebar{
+  height: 500px;
+  background-color: green;
+}
+.sidebar h2{
+  color: black;
+}
+.sidebar h3{
+  color: yellow;
+}
+.sidebar h4{
+  color: white;
+}
+.main{
+  height: 500px;
+  background-color: grey;
+  color: black;
+
+}
