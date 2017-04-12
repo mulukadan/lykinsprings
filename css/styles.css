@@ -22,8 +22,12 @@
   color: white;
 }
 .main{
-  height: 500px;
+  height: auto;
   background-color: grey;
   color: black;
-
+}
+#results{
+  background-color: #91f292;
+  border-top: 1px solid #037204;
+  width: 70%;
 }
