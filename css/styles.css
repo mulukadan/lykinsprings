@@ -4,7 +4,7 @@
   color: black;
 }
 .page-header{
-  height: 100px;
+  height: 320px;
   background-color: orange;
   color: green;
   text-align: center;
@@ -49,5 +49,5 @@
 .footer{
   margin-top: 10px;
   margin-bottom: 0px;
-  
+
 }
