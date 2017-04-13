@@ -1,12 +1,17 @@
+.navbar{
+  border-radius: 0px;
+
+  color: black;
+}
 .page-header{
   height: 100px;
   background-color: orange;
   color: green;
   text-align: center;
-  padding-top: 20px;
-  margin-top: 0px;
-  margin-left: -12px;
-  margin-right: -12px;
+  padding-top: 10px;
+  margin-top: -10px;
+  margin-left: -14px;
+  margin-right: -14px;
 }
 .sidebar{
   height: 500px;
@@ -25,6 +30,7 @@
   height: auto;
   background-color: grey;
   color: black;
+  margin-bottom: 0px;
 }
 #results{
   background-color: white;
@@ -39,4 +45,9 @@
   background-color: #ffffff;
   padding: 5px;
   margin-bottom: 10px;
+}
+.footer{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  
 }
