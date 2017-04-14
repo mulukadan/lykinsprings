@@ -34,6 +34,18 @@
   color: black;
   margin-bottom: 0px;
 }
+#ping{
+  background-color: #3E8EE8;
+  width: 68%;
+}
+#pong{
+  background-color: #A7653D;
+  width: 68%;
+}
+#pingpong{
+  background-color: #31FF50;
+  width: 68%;
+}
 #results{
   background-color: white;
   //border-top: 1px solid #037204;
