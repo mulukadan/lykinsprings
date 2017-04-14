@@ -1,21 +1,23 @@
 .navbar{
   border-radius: 0px;
+    background-color: #A7653D;
 
   color: black;
 }
 .page-header{
   height: 320px;
-  background-color: orange;
+  background-color: #FFF76D;
   color: green;
   text-align: center;
   padding-top: 10px;
-  margin-top: -10px;
+  margin-top: 55px;
   margin-left: -14px;
   margin-right: -14px;
+  margin-bottom: 3px;
 }
 .sidebar{
-  height: 500px;
-  background-color: green;
+  height: auto;
+  background-color: #3E8EE8;
 }
 .sidebar h2{
   color: black;
@@ -28,7 +30,7 @@
 }
 .main{
   height: auto;
-  background-color: grey;
+  background-color: #EA51FF;
   color: black;
   margin-bottom: 0px;
 }
@@ -49,5 +51,17 @@
 .footer{
   margin-top: 10px;
   margin-bottom: 0px;
-
+  text-align: center;
+  color: white;
+  padding-top: 5px;
 }
+
+.panel{
+  margin-top: 10px;
+  padding-top: -10px;
+}
+.panel-heading{
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+#success_message{ display: none;}
