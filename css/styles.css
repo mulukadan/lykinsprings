@@ -1,8 +1,18 @@
+html {
+  background: url(../img/Background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .navbar{
   border-radius: 0px;
-    background-color: #A7653D;
+    background-color: #7C79FF;
 
   color: black;
+}
+#.logo{
+  color: red;
 }
 .page-header{
   height: 320px;
