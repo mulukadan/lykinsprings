@@ -35,16 +35,32 @@ text-shadow:    none;
   font-size:      2.5em;
 }
 .jumbotron{
+  background-image: url("../img/ab1.jpg");
   text-align: center;
-  background-color: #DAC5FF;
+  /*background-color: #DAC5FF;*/
   margin-left: -14px;
   margin-right: -14px;
   padding-top: 5px;
+  padding-bottom: 5px;
+  height: 280px;
+  }
+.jumbotron p{
+  color: black;
+  margin-top: 115px;
 }
-.jumbotron h1{
-  color: green;
+.jumbotron h3{
+  color: red;
 
 }
+.jumbotron img{
+  float: left;
+  margin-top: -5px;
+  margin-bottom: -25px;
+}
+/*#logoimg{
+  margin-top: -25px;
+
+}*/
 .thumbnail img:hover{
   transform: scale(1.1);
 }
@@ -137,6 +153,9 @@ text-shadow:    none;
 }
 .remarks{
   padding: 16px;
+}
+.glyphicon{
+  color: green;
 }
 #downloadTable thead{
   background-color: #0722ef;
