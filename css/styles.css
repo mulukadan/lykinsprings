@@ -35,32 +35,37 @@ text-shadow:    none;
   font-size:      2.5em;
 }
 .jumbotron{
-  background-image: url("../img/ab1.jpg");
+  background: url("../img/man.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   text-align: center;
-  /*background-color: #DAC5FF;*/
   margin-left: -14px;
   margin-right: -14px;
   padding-top: 5px;
   padding-bottom: 5px;
-  height: 280px;
+  }
+.jumbotron h1{
+    color: #FFD700;
+    text-shadow: 1px 1px 2px black;
+    /*font-family: Tahoma, Geneva, sans-serif;*/
+    font-family:    Garamond;
   }
 .jumbotron p{
   color: black;
-  margin-top: 115px;
 }
 .jumbotron h3{
-  color: red;
-
+  color: #FFA500;
+  text-shadow: 1px 1px 2px black;
+  /*font-family: Brush Script MT,cursive;*/
+  font-family: Copperplate / Copperplate Gothic Light, sans-serif;
 }
 .jumbotron img{
-  float: left;
   margin-top: -5px;
   margin-bottom: -25px;
-}
-/*#logoimg{
-  margin-top: -25px;
+  }
 
-}*/
 .thumbnail img:hover{
   transform: scale(1.1);
 }
